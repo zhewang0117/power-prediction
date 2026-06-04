@@ -1,0 +1,32 @@
+# Virtual env (5.4GB)
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model weights
+*.pt
+
+# Large data (keep only what's needed)
+data/power/
+data/nwp/
+data/predictions/param_bilstm_pred_*.csv
+
+# Results (regeneratable)
+results/
+
+# Claude internal
+.claude/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
